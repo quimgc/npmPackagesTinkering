@@ -63,7 +63,7 @@ Instal·lar:
 
 Provar que puc imprimeix un hello + nomFactory.
 
-Al fitxer s'ha d'afegir:
+Al fitxer.js s'ha d'afegir:
 
     var nomVar =  require('quimgc-hello-ng')
     
