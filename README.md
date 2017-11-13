@@ -55,15 +55,15 @@ Per crear l'usuari:
 
 # TODO
 
-Crear un paquet npmTinkering i utilitar el paquet que s'ha creat a npmjs.org amb el nom de quimg-hello-nd.
+Crear un paquet npmTinkeringTest i utilitar el paquet que s'ha creat a npmjs.org amb el nom de quimg-hello-nd.
 
 Instal·lar:
 
     npm install quimgc-hello-ng
 
-Provar que puc imprimeix un hello + nomFactory.
+Provar que puc imprimir un hello + nomFactory.
 
-Al fitxer.js s'ha d'afegir:
+Al fitxer.js del paquet npmTinkeringTest s'ha d'afegir el següent per poder utilitzar la llibreria:
 
     var nomVar =  require('quimgc-hello-ng')
     
