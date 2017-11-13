@@ -50,3 +50,20 @@ Tota la resta és modul npm
 Per crear l'usuari:
 
     http://acacha.org/mediawiki/Node_Packaged_Modules#Publicar_paquets
+    
+ 
+
+# TODO
+
+Crear un paquet npmTinkering i utilitar el paquet que s'ha creat a npmjs.org amb el nom de quimg-hello-nd.
+
+Instal·lar:
+
+    npm install quimgc-hello-ng
+
+Provar que puc imprimeix un hello + nomFactory.
+
+Al fitxer s'ha d'afegir:
+
+    var nomVar =  require('quimgc-hello-ng')
+    
