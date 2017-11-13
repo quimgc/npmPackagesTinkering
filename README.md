@@ -63,7 +63,7 @@ Instal·lar:
 
 Provar que puc imprimir un hello + nomFactory.
 
-Al fitxer.js del paquet npmTinkeringTest s'ha d'afegir el següent per poder utilitzar la llibreria:
+Al fitxer.js del paquet npmTinkeringTest s'ha d'afegir el següent per poder utilitzar la dependència:
 
     var nomVar =  require('quimgc-hello-ng')
     
