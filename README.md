@@ -50,3 +50,66 @@ Tota la resta és modul npm
 Per crear l'usuari:
 
     http://acacha.org/mediawiki/Node_Packaged_Modules#Publicar_paquets
+
+
+# REQUIRE
+    
+Els require comencen amb / o ../ o ./ -> s'està important un mòdul, NO UN PAQUET.
+
+Si es fa: require 'axios' (per exemple) -> s'està important un paquet.
+   
+# IMPORT
+
+
+## SEMVER
+
+**Semantic Versioning**
+
+URL:
+
+    https://docs.npmjs.com/getting-started/semantic-versioning
+    http://semver.org/
+
+Quan es crea una versió s'ha de seguir:
+
+MAJOR.MINOR.PATCH
+
+exemple:
+
+    2.1.1
+
+MAJOR: quan es fan canvis incompatibles a la API, o quan es canvia el que es retorna.
+
+MINOR: quan s'afegeix noves funcionalitats, no afecta al funcionament de l'api.
+
+PATCH: quan es corregeixen errors/bugs.
+
+
+## Per provar un fitxer JS.
+
+    node nomfitxer.js
+
+
+# Per publicar una versió nova amb npm:
+
+    npm version patch
+
+
+Per pujar-lo:
+
+    git push --tags
+    npm publish
+    
+    
+# WEBPACK
+
+Instal·lació en global:
+
+    npm isntall webpack -g
+ 
+
+## Per esborrar del git i no del local:
+
+    git rm -rf --cached node_modules/
+    
+# vue-cli

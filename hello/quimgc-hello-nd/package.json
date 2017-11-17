@@ -1,0 +1,14 @@
+{
+  "name": "quimgc-hello-nd",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quim González Colat <quimgonzalezcolat@gmail.com> (http://github.com/quimgc)",
+  "license": "ISC",
+  "dependencies": {
+    "underscore.string": "^3.3.4"
+  }
+}
