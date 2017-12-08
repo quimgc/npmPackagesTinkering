@@ -3,7 +3,7 @@
 // Tota la resta és modul npm
 
 
-var hello = require('quimgc-hello-ng').hello;
+var hello = require('quimgc-hello-nd').hello;
 
 hello(quim);
 

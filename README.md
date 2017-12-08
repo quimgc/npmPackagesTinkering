@@ -1,4 +1,4 @@
-#NPM PACKAGES TINKERING
+# NPM PACKAGES TINKERING
 
 
 Com actualitzar node a la última versió:
@@ -50,6 +50,7 @@ Tota la resta és modul npm
 Per crear l'usuari:
 
     http://acacha.org/mediawiki/Node_Packaged_Modules#Publicar_paquets
+<<<<<<< HEAD
 
 
 # REQUIRE
@@ -113,3 +114,22 @@ Instal·lació en global:
     git rm -rf --cached node_modules/
     
 # vue-cli
+=======
+    
+ 
+
+# TODO
+
+Crear un paquet npmTinkeringTest i utilitar el paquet que s'ha creat a npmjs.org amb el nom de quimg-hello-nd.
+
+Instal·lar:
+
+    npm install quimgc-hello-ng
+
+Provar que puc imprimir un hello + nomFactory.
+
+Al fitxer.js del paquet npmTinkeringTest s'ha d'afegir el següent per poder utilitzar la dependència:
+
+    var nomVar =  require('quimgc-hello-ng')
+    
+>>>>>>> 88dca27497e297b0bd0aa7c4ef1bb0e16a23ff3d
